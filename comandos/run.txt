@@ -1,0 +1,5 @@
+//run conteiner
+$ docker run -p <host_port>:<conteiner_port> <name_conteiner>
+
+//rodar o aplicativo em segundo plano, no modo desanexado
+$ docker run -d -p <host_port>:<conteiner_port> <name_conteiner>
